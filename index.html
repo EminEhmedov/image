@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        body{
+        background-color: black;
+    }
+
+    label{
+        color: aliceblue;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+    margin-left: 40%;
+    }
+    input{
+        width: 200px;
+        text-align: center;
+    }
+.box2{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.box2 img{
+    width: 33%;
+/* border: 3px solid red;
+opacity: 0.1; */
+}
+
+    </style>
+</head>
+<body>
+    
+<!-- <form action="">
+    <input type="text">
+</form> -->
+<!-- <h1></h1> -->
+
+
+<div>
+    <form action="">
+        <label for="">Opacity</label>
+        <input type="range" class="opacity" min="0" max="1" step="0.01">
+        <label for="">Border</label>
+        <input type="range" min="0" max="5" step="0.1" class="border">
+    </form>
+</div>
+
+<div class="box2">
+    <img src="ast.jfif" class="img1" alt="">
+    <img src="imj2.jfif" class="img2"alt="">
+    <img src="imj3.jfif" class="img3"alt="">
+</div>
+<!-- <h1 id="bor" style="color: aliceblue;"></h1> -->
+  <script src="script.js"></script>  
+</body>
+</html>
